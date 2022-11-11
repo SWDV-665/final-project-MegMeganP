@@ -1,0 +1,95 @@
+$fontsize1: 10em;
+$fontsize2: 3.2em;
+$fontsize3: 3em;
+$fontsize4: 2em;
+$fontsize5: 1.5em;
+$fontsize6: 1.3em;
+
+ion-content {
+  --ion-font-family: 'M PLUS 1', sans-serif;
+}
+
+ion-header {
+  --ion-text-color: rgb(42, 54, 82);
+  --ion-text-align: center;
+}
+
+ion-content {
+  --background: rgb(80, 122, 156);
+  --ion-text-color: white;
+
+}
+
+.main {
+  display: block;
+  text-align: center;
+}
+
+.city {
+  display: block;
+  font-size: $fontsize2;
+  font-weight: bold;
+  padding-top: 0.4em;
+}
+
+.date {
+  display: block;
+  font-size: $fontsize5;
+  font-weight: bold;
+  padding-bottom: 0.8em;
+}
+
+.description {
+  display: block;
+  font-size: $fontsize4;
+  font-weight: bold;
+}
+
+.temperature {
+  display: block;
+  font-size: $fontsize1;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
+.icon {
+  display: block;
+  font-size: $fontsize4;
+  padding-top: 0px;
+}
+
+ion-grid {
+  text-align: center;
+  position: fixed;
+  bottom: 0%;
+  margin: 0 auto;
+  font-family: sans-serif !important;
+}
+
+.day {
+  display: block;
+  font-size: $fontsize5;
+  font-weight: bold;
+}
+
+.precipitation {
+  display: block;
+  //color: rgb(87, 83, 83)
+}
+
+.icon-sm {
+  display: block;
+}
+
+.hi-sm {
+  display: block;
+  font-weight:bold;
+  font-size: $fontsize6;
+}
+
+.lo-sm {
+  display: block;
+  font-weight:bold;
+  padding-bottom: 1.5em;
+}

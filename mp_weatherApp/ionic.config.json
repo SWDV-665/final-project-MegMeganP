@@ -1,0 +1,7 @@
+{
+  "name": "mp_weather",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
